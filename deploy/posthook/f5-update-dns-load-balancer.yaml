@@ -10,7 +10,7 @@ spec:
   tower_auth_secret: toweraccess
   job_template_name: f5-update-dns-load-balancer
   extra_vars:
-    API_DOMAIN: demo.red-chesterfield.com
+    API_DOMAIN: rhtelco.io
     # The AWS Route53 NS Record must exist with NameServers:
     # ns1.f5cloudservices.com
     # ns2.f5cloudservices.com
