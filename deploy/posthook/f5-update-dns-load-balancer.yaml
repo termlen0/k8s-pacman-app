@@ -14,8 +14,8 @@ spec:
     # The AWS Route53 NS Record must exist with NameServers:
     # ns1.f5cloudservices.com
     # ns2.f5cloudservices.com
-    GSLB_ZONE: gslb
-    BASE_DOMAIN: webinar-acmdemo.rhtelco.io #clustername.actualbasedomain
+    GSLB_ZONE: www-apps
+    BASE_DOMAIN: gslb.rhtelco.io #clustername.actualbasedomain
     BASE_AWS_DOMAIN: rhtelco.io
     target_clusters:
       - cluster-1
