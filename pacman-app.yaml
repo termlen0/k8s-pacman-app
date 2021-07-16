@@ -10,7 +10,7 @@ metadata:
     apps.open-cluster-management.io/github-path: deploy
 spec:
   type: GitHub
-  pathname: https://github.com/mdelder/k8s-pacman-app.git
+  pathname: https://github.com/termlen0/k8s-pacman-app.git
   # secretRef:
   #   name: github-credentials
 ---
@@ -65,9 +65,7 @@ spec:
     - key: region
       operator: In
       values:
-      - us-east-1
-      - us-west-1
-      - europe-west3
-    matchLabels:
-      environment: dev
+      - eu-central-1
+      - eu-west-3
+      matchLabels:
       apps/pacman: deployed
