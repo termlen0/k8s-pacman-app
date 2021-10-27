@@ -6,6 +6,6 @@ spec:
   applicationMenu:
     imageURL: https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg
     section: Red Hat Applications
-  href: https://ansible-tower-web-svc-tower.apps.webinar-acmdemo.rhtelco.io
+  href: https://ansible-tower-web-svc-tower.apps.webinar-acmdemo.sandbox1455.opentlc.com
   location: ApplicationMenu
   text: Red Hat Ansible Tower

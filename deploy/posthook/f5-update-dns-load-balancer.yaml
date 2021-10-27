@@ -10,13 +10,13 @@ spec:
   tower_auth_secret: toweraccess
   job_template_name: f5-update-dns-load-balancer
   extra_vars:
-    API_DOMAIN: rhtelco.io # api.basedomain
+    API_DOMAIN: sandbox1455.opentlc.com # api.basedomain
     # The AWS Route53 NS Record must exist with NameServers:
     # ns1.f5cloudservices.com
     # ns2.f5cloudservices.com
     GSLB_ZONE: www-apps
-    BASE_DOMAIN: gslb.rhtelco.io #clustername.actualbasedomain
-    BASE_AWS_DOMAIN: rhtelco.io
+    BASE_DOMAIN: gslb.sandbox1455.opentlc.com #clustername.actualbasedomain
+    BASE_AWS_DOMAIN: sandbox1455.opentlc.com
     target_clusters:
       - cluster-1
       - cluster-2
